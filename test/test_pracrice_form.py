@@ -44,7 +44,7 @@ def test_complete_and_submit_form(setup_browser):
             birthday='18 March,1990',
             subjects='Maths',
             hobbies='Sports',
-            file_name='foto.jpg',
+            file_name='picture.jpg',
             address='Test, 14/2',
             state_and_city='Haryana Karnal'
         )
