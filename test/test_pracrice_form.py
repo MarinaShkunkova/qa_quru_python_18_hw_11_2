@@ -26,7 +26,7 @@ def test_complete_and_submit_form(setup_browser):
     with allure.step("Выбор хобби"):
         registration_page.choose_hobbies('1')
     with allure.step("Загрузка фото"):
-        registration_page.upload_picture('foto.jpg')
+        registration_page.upload_picture('picture.jpeg')
     with allure.step("Заполенения адреса"):
         registration_page.current_adress('Test, 14/2')
     with allure.step("Выбор штата и города"):
